@@ -180,8 +180,8 @@ int main(int argc, char** argv) {
 
    string msg;
    demo::People to;
-   to.set_name("violet");
-   to.set_email("violet@gmail.com");
+   to.set_name("arag");
+   to.set_email("arag039@gmail.com");
    to.set_id(1002);
    to.SerializeToString(&msg);
    sprintf(buf, "%s", msg.c_str());
